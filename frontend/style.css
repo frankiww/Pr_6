@@ -1,0 +1,98 @@
+/* #F7EDF0 фон*/
+/* #F4CBC6 */
+/* #F4AFAB кнопки*/
+
+/* #393e41 */
+/* #8b2635 */
+/* body{
+    background-color: #393e41;
+    color: white;
+    
+} */
+
+
+body[data-theme="light"]{
+    background-color: #F7EDF0;
+    
+}
+
+body[data-theme="dark"]{
+    background-color: #393e41;
+    color: white;
+}
+
+h1, h2{
+    text-align: center;
+
+}
+
+form{
+    border: 2px solid #f4cbc6;
+    margin: 0 auto;
+    width: 35%;
+    text-align: center;
+
+}
+@media (max-width: 768px){
+    form{
+        width: 70%;
+    }
+}
+#protected{
+    text-align: center;
+
+}
+form div{
+    text-align: center;
+    margin: 15px 10px;
+}
+input{
+    margin: 0px 10px;
+    width: 35%;
+}
+button{
+    background-color: #F4AFAB;
+    transition-duration: 0.4s;
+    width: 35%;
+    cursor: pointer;
+    box-shadow: 0 5px #F4AFAB;
+    border-radius: 10px;
+    height: 25px;
+    margin: 3% 10px;
+    
+}
+
+.controls{
+    margin: 20px auto;
+    text-align: center;
+    width: 50%;
+
+}
+@media (max-width: 768px){
+    .controls{
+        width: 70%;
+    }
+}
+button:hover{
+    background-color: #f4cbc6;
+    color: black;
+
+}
+button:active{
+    background-color: #f4cbc6;
+    color: black;
+    transform: translateY(4px);
+}
+
+#data-container{
+    border: 2px solid #f4cbc6;
+    margin: 0 auto;
+    width: 35%;
+    text-align: center;
+}
+#btn
+{
+    margin: 10px auto;
+    text-align: center;
+    width: 50%;
+}
